@@ -1,4 +1,4 @@
-#SUMO framework
+# SUMO framework
 
 Python framework for SUMO, inspired by SUMO-RL package.
 
