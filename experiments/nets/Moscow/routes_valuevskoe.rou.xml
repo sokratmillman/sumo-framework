@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<routes>
+  <routeDistribution id="valuevskoe_distribution_9">
+    <route edges="valuevskoe_in valuevskoe_in_2 valuevskoe_to_atlasova atlasova_out_3 atlasova_out" id="valuevskoe_to_atlasova" probability="0.45714285714285713"/>
+    <route edges="valuevskoe_in valuevskoe_in_2 valuevskoe_to_atlasova moskvitina_out" id="valuevskoe_to_moskvitina" probability="0.14285714285714285"/>
+    <route edges="valuevskoe_in valuevskoe_in_2 valuevskoe_to_atlasova chumakova_out" id="valuevskoe_to_chumakova" probability="0.3142857142857143"/>
+    <route edges="valuevskoe_in valuevskoe_in_2 habarova_out" id="valuevskoe_to_habarova" probability="0.08571428571428572"/>
+  </routeDistribution>
+  <routeDistribution id="valuevskoe_distribution_10">
+    <route edges="valuevskoe_in valuevskoe_in_2 valuevskoe_to_atlasova atlasova_out_3 atlasova_out" id="valuevskoe_to_atlasova" probability="0.5294117647058824"/>
+    <route edges="valuevskoe_in valuevskoe_in_2 valuevskoe_to_atlasova moskvitina_out" id="valuevskoe_to_moskvitina" probability="0.058823529411764705"/>
+    <route edges="valuevskoe_in valuevskoe_in_2 valuevskoe_to_atlasova chumakova_out" id="valuevskoe_to_chumakova" probability="0.2647058823529412"/>
+    <route edges="valuevskoe_in valuevskoe_in_2 habarova_out" id="valuevskoe_to_habarova" probability="0.14705882352941177"/>
+  </routeDistribution>
+  <flow begin="32400" departLane="best" departSpeed="8.333333333333334" end="36000" id="flow_from_valuevskoe_at_9" route="valuevskoe_distribution_9" vehsPerHour="800"/>
+  <flow begin="36000" departLane="best" departSpeed="8.333333333333334" end="39600" id="flow_from_valuevskoe_at_10" route="valuevskoe_distribution_10" vehsPerHour="800"/>
+</routes>

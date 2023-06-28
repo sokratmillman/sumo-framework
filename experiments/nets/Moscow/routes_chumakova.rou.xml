@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<routes>
+  <routeDistribution id="chumakova_distribution_9">
+    <route edges="chumakova_in atlasova_out_3 atlasova_out" id="chumakova_to_atlasova" probability="0.5555555555555556"/>
+    <route edges="chumakova_in moskvitina_out" id="chumakova_to_moskvitina" probability="0.18518518518518517"/>
+    <route edges="chumakova_in atlasova_to_valuevskoe_1 atlasova_to_valuevskoe_2 habarova_out" id="chumakova_to_habarova" probability="0.1111111111111111"/>
+    <route edges="chumakova_in atlasova_to_valuevskoe_1 atlasova_to_valuevskoe_2 valuevskoe_out" id="chumakova_to_valuevskoe" probability="0.14814814814814814"/>
+  </routeDistribution>
+  <routeDistribution id="chumakova_distribution_10">
+    <route edges="chumakova_in atlasova_out_3 atlasova_out" id="chumakova_to_atlasova" probability="0.14285714285714285"/>
+    <route edges="chumakova_in moskvitina_out" id="chumakova_to_moskvitina" probability="0.2857142857142857"/>
+    <route edges="chumakova_in atlasova_to_valuevskoe_1 atlasova_to_valuevskoe_2 habarova_out" id="chumakova_to_habarova" probability="0.14285714285714285"/>
+    <route edges="chumakova_in atlasova_to_valuevskoe_1 atlasova_to_valuevskoe_2 valuevskoe_out" id="chumakova_to_valuevskoe" probability="0.42857142857142855"/>
+  </routeDistribution>
+  <flow begin="32400" departLane="1" departSpeed="8.333333333333334" end="36000" id="flow_from_chumakova_at_9" route="chumakova_distribution_9" vehsPerHour="375"/>
+  <flow begin="36000" departLane="1" departSpeed="8.333333333333334" end="39600" id="flow_from_chumakova_at_10" route="chumakova_distribution_10" vehsPerHour="375"/>
+</routes>

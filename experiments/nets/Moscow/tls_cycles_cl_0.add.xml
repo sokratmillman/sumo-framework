@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additionals>
+  <tlLogic id="gneJ21" type="static" programID="a1" offset="0">
+    <phase duration="66" state="GGGrrgrrGGGrrrrrr" name="1"/>
+    <phase duration="6" state="yyyrrgrryyyrrrrrr" name="1_to_2"/>
+    <phase duration="26" state="rrrggGrrrrrGGrrrr" name="2"/>
+    <phase duration="3" state="rrryyGrrrrryyrrrr" name="2_to_3"/>
+    <phase duration="22" state="rrrrrgrrrrrrrGGGG" name="3"/>
+    <phase duration="6" state="rrrrrgrrrrrrryyyy" name="3_to_4"/>
+    <phase duration="24" state="rrrrrGGGrrrrrrrrr" name="4"/>
+    <phase duration="6" state="rrrrryyyrrrrrrrrr" name="4_to_5"/>
+    <phase duration="31" state="rrrrrrrrrrrrrrrrr" name="5"/>
+  </tlLogic>
+  <tlLogic id="gneJ8" type="static" programID="a1" offset="0">
+    <phase duration="56" state="rrGGGGGGrrG" name="1"/>
+    <phase duration="4" state="rryyyyGGrrG" name="1_to_2"/>
+    <phase duration="67" state="rrrrrrGGGGG" name="2"/>
+    <phase duration="7" state="rrrrrryyGGG" name="2_to_3"/>
+    <phase duration="28" state="rrrrrrrrGGG" name="3"/>
+    <phase duration="4" state="rrrrrrrryyG" name="3_to_4"/>
+    <phase duration="20" state="GGrrrrrrrrG" name="4"/>
+    <phase duration="4" state="yyrrrrrrrrG" name="4_to_1"/>
+  </tlLogic>
+</additionals>

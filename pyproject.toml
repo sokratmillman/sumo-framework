@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sumo_framework"
+version = "0.1.0"
+authors = [
+  { name="Maxim Stepanov", email="superstepashka1981@gmail.com" },
+]
+description = "Python framework for approbation of different control methods on SUMO"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "gymnasium",
+    "libsumo",
+    "pandas",
+    "sumolib",
+    "matplotlib",
+    "seaborn"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sokratmillman/sumo-framework"
+"Bug Tracker" = "https://github.com/sokratmillman/sumo-framework/issues"
+
+[tool.setuptools.package-dir]
+sumo_framework = "sumo_framework"
+
+[tool.setuptools.packages.find]
+include = ["sumo_framework", "sumo_framework.*"]
